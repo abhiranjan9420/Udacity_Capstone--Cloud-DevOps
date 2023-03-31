@@ -34,4 +34,4 @@ https://app.circleci.com/settings/project/github/anubhavmilind/Udacity_Capstone-
 ****
   Badge ****
   
- [![CircleCI](https://dl.circleci.com/status-badge/img/gh/anubhavmilind/Udacity_Capstone--Cloud-DevOps/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/anubhavmilind/Udacity_Capstone--Cloud-DevOps/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/abhiranjan9420/Udacity_Capstone--Cloud-DevOps/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/abhiranjan9420/Udacity_Capstone--Cloud-DevOps/tree/main)
