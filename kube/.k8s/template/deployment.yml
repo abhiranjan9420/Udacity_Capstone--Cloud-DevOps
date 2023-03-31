@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: capstone_project
+  name: capstone-project
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: capstone_project
+      app: capstone-project
   template:
     metadata:
       labels:
-        app: capstone_project
+        app: capstone-project
     spec:
       containers:
-      - name: capstone_project
+      - name: capstone-project
         image: abhiranjan88/capstone_project
         imagePullPolicy: Always
         ports:
@@ -26,10 +26,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: capstone_project
+  name: capstone-project
 spec:
   ports:
   - port: 80
     targetPort: 8080
   selector:
-    app: capstone_project
+    app: capstone-project
